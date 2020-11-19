@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/main.cpp
+main.h
+/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/main.h
+
+/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/main.h
+iostream
+-
+string
+-
+vector
+-
+cmath
+-
+
