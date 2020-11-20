@@ -116,9 +116,22 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/print_slae.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/print_slae.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/print_slae.cpp -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/print_slae.cpp.s
 
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.o: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/flags.make
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.o: ../norm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/norm.cpp
+
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/norm.cpp > CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.i
+
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/norm.cpp -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.s
+
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/QR_method.cpp.o: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/flags.make
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/QR_method.cpp.o: ../QR_method/QR_method.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/QR_method.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/QR_method.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/QR_method.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/QR_method/QR_method.cpp
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/QR_method.cpp.i: cmake_force
@@ -131,7 +144,7 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/QR_method.cp
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matrix.cpp.o: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/flags.make
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matrix.cpp.o: ../QR_method/create_matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matrix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matrix.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matrix.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/QR_method/create_matrix.cpp
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matrix.cpp.i: cmake_force
@@ -144,7 +157,7 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matri
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/is_degenerate.cpp.o: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/flags.make
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/is_degenerate.cpp.o: ../is_degenerate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/is_degenerate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/is_degenerate.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/is_degenerate.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/is_degenerate.cpp
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/is_degenerate.cpp.i: cmake_force
@@ -157,7 +170,7 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/is_degenerate.cpp.s: c
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/multiplication.cpp.o: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/flags.make
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/multiplication.cpp.o: ../multiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/multiplication.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/multiplication.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/multiplication.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/multiplication.cpp
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/multiplication.cpp.i: cmake_force
@@ -170,7 +183,7 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/multiplication.cpp.s: 
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/subtraction.cpp.o: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/flags.make
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/subtraction.cpp.o: ../subtraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/subtraction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/subtraction.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/subtraction.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/subtraction.cpp
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/subtraction.cpp.i: cmake_force
@@ -183,7 +196,7 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/subtraction.cpp.s: cma
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_traverse.cpp.o: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/flags.make
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_traverse.cpp.o: ../reverse_traverse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_traverse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_traverse.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_traverse.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/reverse_traverse.cpp
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_traverse.cpp.i: cmake_force
@@ -196,7 +209,7 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_traverse.cpp.s
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/transposition.cpp.o: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/flags.make
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/transposition.cpp.o: ../transposition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/transposition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/transposition.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/transposition.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/transposition.cpp
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/transposition.cpp.i: cmake_force
@@ -209,7 +222,7 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/transposition.cpp.s: c
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/find_eigenvalues.cpp.o: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/flags.make
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/find_eigenvalues.cpp.o: ../find_eigenvalues.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/find_eigenvalues.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/find_eigenvalues.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/find_eigenvalues.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/find_eigenvalues.cpp
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/find_eigenvalues.cpp.i: cmake_force
@@ -222,7 +235,7 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/find_eigenvalues.cpp.s
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cpp.o: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/flags.make
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cpp.o: ../to_Hessenberg_shape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/to_Hessenberg_shape.cpp
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cpp.i: cmake_force
@@ -233,11 +246,25 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/to_Hessenberg_shape.cpp -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cpp.s
 
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.o: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/flags.make
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.o: ../normalization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.o -c /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/normalization.cpp
+
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/normalization.cpp > CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.i
+
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/normalization.cpp -o CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.s
+
 # Object files for target methods_for_solving_the_eigenvalue_problem
 methods_for_solving_the_eigenvalue_problem_OBJECTS = \
 "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/main.cpp.o" \
 "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/parser/parser.cpp.o" \
 "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/print_slae.cpp.o" \
+"CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.o" \
 "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/QR_method.cpp.o" \
 "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matrix.cpp.o" \
 "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/is_degenerate.cpp.o" \
@@ -246,7 +273,8 @@ methods_for_solving_the_eigenvalue_problem_OBJECTS = \
 "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_traverse.cpp.o" \
 "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/transposition.cpp.o" \
 "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/find_eigenvalues.cpp.o" \
-"CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cpp.o"
+"CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cpp.o" \
+"CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.o"
 
 # External object files for target methods_for_solving_the_eigenvalue_problem
 methods_for_solving_the_eigenvalue_problem_EXTERNAL_OBJECTS =
@@ -254,6 +282,7 @@ methods_for_solving_the_eigenvalue_problem_EXTERNAL_OBJECTS =
 methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/main.cpp.o
 methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/parser/parser.cpp.o
 methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/print_slae.cpp.o
+methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.o
 methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/QR_method.cpp.o
 methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matrix.cpp.o
 methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/is_degenerate.cpp.o
@@ -263,9 +292,10 @@ methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_e
 methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/transposition.cpp.o
 methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/find_eigenvalues.cpp.o
 methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/to_Hessenberg_shape.cpp.o
+methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.o
 methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make
 methods_for_solving_the_eigenvalue_problem: CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable methods_for_solving_the_eigenvalue_problem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable methods_for_solving_the_eigenvalue_problem"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

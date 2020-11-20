@@ -20,6 +20,32 @@ VALUE_TYPE	sum(vector<VALUE_TYPE> a_i, vector<VALUE_TYPE> &b, int size)
 	return s;
 }
 
+VALUE_TYPE	scalar_multiplication(vector<VALUE_TYPE> &a, vector<VALUE_TYPE> &b)
+{
+	VALUE_TYPE	sum = 0;
+	int size = a.size();
+
+	if (size != b.size())
+	{
+		cout << RED << "[ERROR] wrong sizes during scalar multiplication!" << RESET << endl;
+		return (0);
+	}
+
+	for (int i = 0; i < size; i++)
+		sum += a[i] * b[i];
+
+	return sum;
+}
+
+vector<VALUE_TYPE>	multiply(vector<vector<VALUE_TYPE>> &slae, vector<VALUE_TYPE> &x, int size)
+{
+	vector<VALUE_TYPE>	res;
+
+	for (int i = 0; i < size; i++)
+		res.push_back(sum(slae[i], x, size));
+
+	return res;
+}
 
 vector<vector<VALUE_TYPE>>	multiply(vector<vector<VALUE_TYPE>> &a, vector<vector<VALUE_TYPE>> &b)
 {

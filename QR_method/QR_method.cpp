@@ -1,11 +1,11 @@
 #include "QR_method.h"
 
-static	vector<VALUE_TYPE>	get_solution(vector<vector<VALUE_TYPE>> &slae, int size)
+vector<VALUE_TYPE>	get_solution(vector<vector<VALUE_TYPE>> &slae, int size, vector<VALUE_TYPE> &b)
 {
 	vector<VALUE_TYPE> x;
 
 	for (int i = 0; i < size; i++)
-		x.push_back(slae[i][size] / slae[i][i]);
+		x.push_back(b[i] / slae[i][i]);
 
 	return x;
 }

@@ -305,6 +305,60 @@ multiplication.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/multiplication.cpp.s
 .PHONY : multiplication.cpp.s
 
+norm.o: norm.cpp.o
+
+.PHONY : norm.o
+
+# target to build an object file
+norm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.o
+.PHONY : norm.cpp.o
+
+norm.i: norm.cpp.i
+
+.PHONY : norm.i
+
+# target to preprocess a source file
+norm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.i
+.PHONY : norm.cpp.i
+
+norm.s: norm.cpp.s
+
+.PHONY : norm.s
+
+# target to generate assembly for a file
+norm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.s
+.PHONY : norm.cpp.s
+
+normalization.o: normalization.cpp.o
+
+.PHONY : normalization.o
+
+# target to build an object file
+normalization.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.o
+.PHONY : normalization.cpp.o
+
+normalization.i: normalization.cpp.i
+
+.PHONY : normalization.i
+
+# target to preprocess a source file
+normalization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.i
+.PHONY : normalization.cpp.i
+
+normalization.s: normalization.cpp.s
+
+.PHONY : normalization.s
+
+# target to generate assembly for a file
+normalization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.s
+.PHONY : normalization.cpp.s
+
 parser/parser.o: parser/parser.cpp.o
 
 .PHONY : parser/parser.o
@@ -494,6 +548,12 @@ help:
 	@echo "... multiplication.o"
 	@echo "... multiplication.i"
 	@echo "... multiplication.s"
+	@echo "... norm.o"
+	@echo "... norm.i"
+	@echo "... norm.s"
+	@echo "... normalization.o"
+	@echo "... normalization.i"
+	@echo "... normalization.s"
 	@echo "... parser/parser.o"
 	@echo "... parser/parser.i"
 	@echo "... parser/parser.s"

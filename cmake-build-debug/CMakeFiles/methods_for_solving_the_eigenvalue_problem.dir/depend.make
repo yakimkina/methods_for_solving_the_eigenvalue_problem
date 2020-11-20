@@ -21,6 +21,12 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/main.cpp.o: ../main.h
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/multiplication.cpp.o: ../main.h
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/multiplication.cpp.o: ../multiplication.cpp
 
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.o: ../main.h
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.o: ../norm.cpp
+
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.o: ../main.h
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.o: ../normalization.cpp
+
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/parser/parser.cpp.o: ../main.h
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/parser/parser.cpp.o: ../parser/parser.cpp
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/parser/parser.cpp.o: ../parser/parser.h

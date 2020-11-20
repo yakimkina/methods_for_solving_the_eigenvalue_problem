@@ -104,6 +104,12 @@
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/multiplication.cpp">
 			<Option target="methods_for_solving_the_eigenvalue_problem"/>
 		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/norm.cpp">
+			<Option target="methods_for_solving_the_eigenvalue_problem"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/normalization.cpp">
+			<Option target="methods_for_solving_the_eigenvalue_problem"/>
+		</Unit>
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/parser/parser.cpp">
 			<Option target="methods_for_solving_the_eigenvalue_problem"/>
 		</Unit>

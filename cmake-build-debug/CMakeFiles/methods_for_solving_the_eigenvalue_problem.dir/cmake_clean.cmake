@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/is_degenerate.cpp.o"
   "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/main.cpp.o"
   "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/multiplication.cpp.o"
+  "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/norm.cpp.o"
+  "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/normalization.cpp.o"
   "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/parser/parser.cpp.o"
   "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/print_slae.cpp.o"
   "CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_traverse.cpp.o"

@@ -50,14 +50,21 @@ void	print_slae(vector<vector<VALUE_TYPE>> &slae, int size); /* print SLAE witho
 vector<vector<VALUE_TYPE>> 	parsing_file();
 
 vector<vector<VALUE_TYPE>>	transpose(vector<vector<VALUE_TYPE>> &slae);
+VALUE_TYPE					scalar_multiplication(vector<VALUE_TYPE> &a, vector<VALUE_TYPE> &b);
 vector<vector<VALUE_TYPE>>	multiply(vector<vector<VALUE_TYPE>> &a, vector<vector<VALUE_TYPE>> &b);
+vector<VALUE_TYPE>	multiply(vector<vector<VALUE_TYPE>> &slae, vector<VALUE_TYPE> &x, int size);
 vector<vector<VALUE_TYPE>>	multiply(vector<vector<VALUE_TYPE>> &a, vector<vector<VALUE_TYPE>> &b, int size, VALUE_TYPE value);
 vector<vector<VALUE_TYPE>>	subtract_matrices(vector<vector<VALUE_TYPE>> a, vector<vector<VALUE_TYPE>> b, int m, int n);
 bool	is_degenerate(vector<vector<VALUE_TYPE>> &slae, int size);
-void	reverse_traverse(vector<vector<VALUE_TYPE>> &slae, int size);
+void	reverse_traverse(vector<vector<VALUE_TYPE>> &slae, int size, vector<VALUE_TYPE> &b);
 
 QR		QR_method(vector<vector<VALUE_TYPE>> &slae, int size);
+VALUE_TYPE	vector_norm(vector<VALUE_TYPE> x, int size);
+vector<VALUE_TYPE>	get_solution(vector<vector<VALUE_TYPE>> &slae, int size, vector<VALUE_TYPE> &b);
+void 	shift_slae(vector<vector<VALUE_TYPE>> &slae, int n, VALUE_TYPE sigma);
+void 	unshift_slae(vector<vector<VALUE_TYPE>> &slae, int n, VALUE_TYPE sigma);
 
+vector<VALUE_TYPE>	normalization(vector<VALUE_TYPE> &x, int size);
 
 vector<VALUE_TYPE>		find_eigenvalues(vector<vector<VALUE_TYPE>> slae);
 vector<VALUE_TYPE>		find_eigenvalues_with_shift(vector<vector<VALUE_TYPE>> slae);
