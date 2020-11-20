@@ -197,6 +197,33 @@ QR_method/create_matrix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matrix.cpp.s
 .PHONY : QR_method/create_matrix.cpp.s
 
+Rayleigh_relation.o: Rayleigh_relation.cpp.o
+
+.PHONY : Rayleigh_relation.o
+
+# target to build an object file
+Rayleigh_relation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/Rayleigh_relation.cpp.o
+.PHONY : Rayleigh_relation.cpp.o
+
+Rayleigh_relation.i: Rayleigh_relation.cpp.i
+
+.PHONY : Rayleigh_relation.i
+
+# target to preprocess a source file
+Rayleigh_relation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/Rayleigh_relation.cpp.i
+.PHONY : Rayleigh_relation.cpp.i
+
+Rayleigh_relation.s: Rayleigh_relation.cpp.s
+
+.PHONY : Rayleigh_relation.s
+
+# target to generate assembly for a file
+Rayleigh_relation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/Rayleigh_relation.cpp.s
+.PHONY : Rayleigh_relation.cpp.s
+
 find_eigenvalues.o: find_eigenvalues.cpp.o
 
 .PHONY : find_eigenvalues.o
@@ -413,6 +440,33 @@ print_slae.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/print_slae.cpp.s
 .PHONY : print_slae.cpp.s
 
+reverse_iteration_method.o: reverse_iteration_method.cpp.o
+
+.PHONY : reverse_iteration_method.o
+
+# target to build an object file
+reverse_iteration_method.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_iteration_method.cpp.o
+.PHONY : reverse_iteration_method.cpp.o
+
+reverse_iteration_method.i: reverse_iteration_method.cpp.i
+
+.PHONY : reverse_iteration_method.i
+
+# target to preprocess a source file
+reverse_iteration_method.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_iteration_method.cpp.i
+.PHONY : reverse_iteration_method.cpp.i
+
+reverse_iteration_method.s: reverse_iteration_method.cpp.s
+
+.PHONY : reverse_iteration_method.s
+
+# target to generate assembly for a file
+reverse_iteration_method.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/build.make CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_iteration_method.cpp.s
+.PHONY : reverse_iteration_method.cpp.s
+
 reverse_traverse.o: reverse_traverse.cpp.o
 
 .PHONY : reverse_traverse.o
@@ -536,6 +590,9 @@ help:
 	@echo "... QR_method/create_matrix.o"
 	@echo "... QR_method/create_matrix.i"
 	@echo "... QR_method/create_matrix.s"
+	@echo "... Rayleigh_relation.o"
+	@echo "... Rayleigh_relation.i"
+	@echo "... Rayleigh_relation.s"
 	@echo "... find_eigenvalues.o"
 	@echo "... find_eigenvalues.i"
 	@echo "... find_eigenvalues.s"
@@ -560,6 +617,9 @@ help:
 	@echo "... print_slae.o"
 	@echo "... print_slae.i"
 	@echo "... print_slae.s"
+	@echo "... reverse_iteration_method.o"
+	@echo "... reverse_iteration_method.i"
+	@echo "... reverse_iteration_method.s"
 	@echo "... reverse_traverse.o"
 	@echo "... reverse_traverse.i"
 	@echo "... reverse_traverse.s"

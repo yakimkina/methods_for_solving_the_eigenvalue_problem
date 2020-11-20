@@ -89,6 +89,9 @@
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/QR_method/create_matrix.cpp">
 			<Option target="methods_for_solving_the_eigenvalue_problem"/>
 		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/Rayleigh_relation.cpp">
+			<Option target="methods_for_solving_the_eigenvalue_problem"/>
+		</Unit>
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/find_eigenvalues.cpp">
 			<Option target="methods_for_solving_the_eigenvalue_problem"/>
 		</Unit>
@@ -117,6 +120,9 @@
 			<Option target="methods_for_solving_the_eigenvalue_problem"/>
 		</Unit>
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/print_slae.cpp">
+			<Option target="methods_for_solving_the_eigenvalue_problem"/>
+		</Unit>
+		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/reverse_iteration_method.cpp">
 			<Option target="methods_for_solving_the_eigenvalue_problem"/>
 		</Unit>
 		<Unit filename="/Users/yakimkina/_workspace/_mgtu/cpp/methods_for_solving_the_eigenvalue_problem/reverse_traverse.cpp">

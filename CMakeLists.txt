@@ -16,4 +16,4 @@ add_executable(methods_for_solving_the_eigenvalue_problem
         transposition.cpp
         find_eigenvalues.cpp
         to_Hessenberg_shape.cpp
-        normalization.cpp)
+        normalization.cpp Rayleigh_relation.cpp reverse_iteration_method.cpp)

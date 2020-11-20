@@ -9,6 +9,9 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matri
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matrix.cpp.o: ../QR_method/create_matrix.cpp
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/QR_method/create_matrix.cpp.o: ../main.h
 
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/Rayleigh_relation.cpp.o: ../Rayleigh_relation.cpp
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/Rayleigh_relation.cpp.o: ../main.h
+
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/find_eigenvalues.cpp.o: ../find_eigenvalues.cpp
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/find_eigenvalues.cpp.o: ../main.h
 
@@ -33,6 +36,9 @@ CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/parser/parser.cpp.o: .
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/print_slae.cpp.o: ../main.h
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/print_slae.cpp.o: ../print_slae.cpp
+
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_iteration_method.cpp.o: ../main.h
+CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_iteration_method.cpp.o: ../reverse_iteration_method.cpp
 
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_traverse.cpp.o: ../main.h
 CMakeFiles/methods_for_solving_the_eigenvalue_problem.dir/reverse_traverse.cpp.o: ../reverse_traverse.cpp

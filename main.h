@@ -70,4 +70,7 @@ vector<VALUE_TYPE>		find_eigenvalues(vector<vector<VALUE_TYPE>> slae);
 vector<VALUE_TYPE>		find_eigenvalues_with_shift(vector<vector<VALUE_TYPE>> slae);
 vector<vector<VALUE_TYPE>> 	to_Hessenberg_shape(vector<vector<VALUE_TYPE>> H);
 
+void 	Rayleigh_relation(vector<vector<VALUE_TYPE>> slae);
+void 	reverse_iteration_method(vector<vector<VALUE_TYPE>> slae, vector<VALUE_TYPE> &eigenvalues);
+
 #endif
